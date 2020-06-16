@@ -2,6 +2,12 @@
 
 **Set prices for products, scan products and get calculated total price**
 
+##Requirements
+The Terminal library has the following requirements:
+
+PHP 7.3+
+PHPUnit ^6.5
+
 ## Installation
 
 Using [composer](https://packagist.org/packages/yhoncharova/terminal):

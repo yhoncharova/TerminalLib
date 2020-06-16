@@ -55,7 +55,7 @@ class TerminalTest extends TestCase
         return [
             [32.40, ['ZA','YB','FC','GD','ZA','YB','ZA','ZA']],
             [7.25, ['FC','FC','FC','FC','FC','FC','FC']],
-            [15.40, ['ZA', 'YB', 'FC', 'GD', 'AA']]
+            [15.40, ['ZA', 'YB', 'FC', 'GD']]
         ];
     }
 

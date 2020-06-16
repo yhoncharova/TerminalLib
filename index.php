@@ -14,7 +14,7 @@ $prices = [ ['code' => 'ZA', 'count' => 1, 'price' => 2.00]
 
 //$codesToScan  = ['ZA','YB','FC','GD','ZA','YB','ZA','ZA'];
 //$codesToScan  = ['FC','FC','FC','FC','FC','FC','FC'];
-$codesToScan  = ['ZA', 'YB', 'FC', 'GD', 'AA'];
+$codesToScan  = ['ZA', 'YB', 'FC', 'GD'];
 
 $terminal = new Terminal();
 
@@ -28,4 +28,4 @@ foreach ($codesToScan as $code) {
 
 
 $res = $terminal->getTotal();
-print_r($res);
+printf("Total price is : %f" , $res);
