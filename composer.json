@@ -1,0 +1,21 @@
+{
+    "name": "ygoncharova/terminal",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yulia Goncharova",
+            "email": "ygoncharovaq@icloud.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TerminalLib\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    }
+}
