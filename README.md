@@ -10,11 +10,11 @@ PHPUnit ^6.5
 
 ## Installation
 
-Using [composer](https://packagist.org/packages/yhoncharova/terminal):
-
 ```bash
-$ composer require yhoncharova/terminal
+$ git clone git@github.com:yhoncharova/TerminalLib.git
+$ composer update
 ```
+[composer](https://packagist.org/packages/yhoncharova/terminal)
 
 ## Terminal 
 Create an instance:
